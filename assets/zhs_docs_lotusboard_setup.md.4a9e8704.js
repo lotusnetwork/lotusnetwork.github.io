@@ -26,10 +26,10 @@ import{_ as s,o as a,c as n,V as l}from"./chunks/framework.b1ba171e.js";const y=
 <span class="line"><span style="color:#A6ACCD;">    restart: always</span></span>
 <span class="line"><span style="color:#A6ACCD;">    environment:</span></span>
 <span class="line"><span style="color:#A6ACCD;">      MYSQL_ROOT_PASSWORD: &#39;DataBase_password&#39;</span></span>
-<span class="line"><span style="color:#A6ACCD;">      MYSQL_DATABASE: DB_Name</span></span></code></pre></div><p><strong>记得修改mysql资料库的密码和资料库名字</strong></p><p><strong>如果您不想将资料库设置于本地, 请删去mysql区块来节省性能</strong></p><h2 id="配置lotusboard" tabindex="-1">配置lotusboard <a class="header-anchor" href="#配置lotusboard" aria-label="Permalink to &quot;配置lotusboard&quot;">​</a></h2><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">- 在docker容器内 -</span></span>
+<span class="line"><span style="color:#A6ACCD;">      MYSQL_DATABASE: DB_Name</span></span></code></pre></div><p><strong>记得修改mysql资料库的密码和资料库名字</strong></p><p><strong>如果您不想将资料库设置于本地, 请删去mysql区块来节省性能</strong></p><h2 id="配置lotusboard" tabindex="-1">配置lotusboard <a class="header-anchor" href="#配置lotusboard" aria-label="Permalink to &quot;配置lotusboard&quot;">​</a></h2><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">- 在宿主机 -</span></span>
 <span class="line"><span style="color:#A6ACCD;">docker compose up -d</span></span>
 <span class="line"><span style="color:#A6ACCD;">docker compose exec www bash</span></span>
-<span class="line"><span style="color:#A6ACCD;">- 在宿主机 -</span></span>
+<span class="line"><span style="color:#A6ACCD;">- 在docker容器内 -</span></span>
 <span class="line"><span style="color:#A6ACCD;">bash init.sh</span></span></code></pre></div><p>执行完上一条之后你应该能看到如下内容</p><div class="language-"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">__     ______  ____                      _</span></span>
 <span class="line"><span style="color:#A6ACCD;">\\ \\   / /___ \\| __ )  ___   __ _ _ __ __| |</span></span>
 <span class="line"><span style="color:#A6ACCD;"> \\ \\ / /  __) |  _ \\ / _ \\ / _\` | &#39;__/ _\` |</span></span>
