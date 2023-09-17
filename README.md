@@ -1,2 +1,0 @@
-# lotusnetwork.github.io
-frontpage
