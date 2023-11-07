@@ -6,7 +6,7 @@ import{_ as s,o as a,c as n,V as e}from"./chunks/framework.b1ba171e.js";const y=
 <span class="line"><span style="color:#A6ACCD;">    image: ghcr.io/lotusnetwork/sakuraneko</span></span>
 <span class="line"><span style="color:#A6ACCD;">    # build: https://github.com/lotusnetwork/sakuraneko.git &lt;- if you&#39;re ARM user please replace image line with this</span></span>
 <span class="line"><span style="color:#A6ACCD;">    volumes:</span></span>
-<span class="line"><span style="color:#A6ACCD;">      - &#39;./www:/www&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">      - &#39;./lotusboard:/www&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      - &#39;./wwwlogs:/wwwlogs&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      - &#39;./caddy.conf:/run/caddy/caddy.conf&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      - &#39;./supervisord.conf:/run/supervisor/supervisord.conf&#39;</span></span>

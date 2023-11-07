@@ -7,7 +7,7 @@ import{_ as s,o as a,c as n,V as l}from"./chunks/framework.b1ba171e.js";const y=
 <span class="line"><span style="color:#A6ACCD;">    image: ghcr.io/lotusnetwork/sakuraneko</span></span>
 <span class="line"><span style="color:#A6ACCD;">    # build: https://github.com/lotusnetwork/sakuraneko.git arm用户看这里</span></span>
 <span class="line"><span style="color:#A6ACCD;">    volumes:</span></span>
-<span class="line"><span style="color:#A6ACCD;">      - &#39;./www:/www&#39;</span></span>
+<span class="line"><span style="color:#A6ACCD;">      - &#39;./lotusboard:/www&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      - &#39;./wwwlogs:/wwwlogs&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      - &#39;./caddy.conf:/run/caddy/caddy.conf&#39;</span></span>
 <span class="line"><span style="color:#A6ACCD;">      - &#39;./supervisord.conf:/run/supervisor/supervisord.conf&#39;</span></span>
@@ -50,4 +50,4 @@ import{_ as s,o as a,c as n,V as l}from"./chunks/framework.b1ba171e.js";const y=
 <span class="line"><span style="color:#A6ACCD;">一切就绪</span></span>
 <span class="line"><span style="color:#A6ACCD;">管理员邮箱：test@test.com</span></span>
 <span class="line"><span style="color:#A6ACCD;">管理员密码：3ecd18745d64fb2420b69eaacf340a87 &lt;--- 生成的密码</span></span>
-<span class="line"><span style="color:#A6ACCD;">访问 http(s)://你的站点/e1bf6d26 进入管理面板，你可以在用户中心修改你的密码</span></span></code></pre></div><p><strong>现在lotusboard应该在 <a href="http://127.0.0.1" target="_blank" rel="noreferrer">http://127.0.0.1</a>:port提供服务了 (port是你在compose配置中所配置的)</strong></p><p><strong>如果提示队列任务工作异常请执行</strong><code>dc restart</code> 来重启面板</p>`,17),e=[o];function t(c,r,i,C,A,d){return a(),n("div",null,e)}const D=s(p,[["render",t]]);export{y as __pageData,D as default};
+<span class="line"><span style="color:#A6ACCD;">访问 http(s)://你的站点/e1bf6d26 进入管理面板，你可以在用户中心修改你的密码</span></span></code></pre></div><p><strong>现在lotusboard应该在 <a href="http://127.0.0.1" target="_blank" rel="noreferrer">http://127.0.0.1</a>:port提供服务了 (port是你在compose配置中所配置的)</strong></p><p><strong>如果提示队列任务工作异常请执行</strong><code>dc restart</code> 来重启面板</p>`,17),e=[o];function t(c,r,i,C,A,d){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{y as __pageData,u as default};
